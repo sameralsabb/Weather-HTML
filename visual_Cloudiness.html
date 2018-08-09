@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherPY: Max Temperature</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+     integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="weather_analysis.css">
+
+</head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" style="background-color:burlywood;">Lattitude</a>
+                </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                    <li><a href="visual_max_temp.html">Max Tempurature</a></li>
+                                    <li><a href="visual_Humidity.html">Humidity</a></li>
+                                    <li><a href="visual_Cloudiness.html">Cloudiness</a></li>
+                                    <li><a href="visual_Wind_Speed.html">Wind Speed</a></li>
+        
+                            </ul>
+
+                            <li><a href="comparison_page.html">Comparison</a></li>
+                            <li><a href="data.html">Data</a></li>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 col-sm-6" id="main-panel-1">
+
+                    <h1>Cloudiness</h1>
+                    <hr>
+
+                    <img class="img-vis" src="assets/images/cloudiness.png" height = "50%" width="50%" alt="">
+                    
+                    <div class="clear"></div>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat magni quia cupiditate 
+                        officiis illo minima autem temporibus ullam fugit et. Necessitatibus, rerum aliquam! 
+                        Eligendi expedita voluptatem voluptates quae architecto facilis.</p>
+
+                </div>
+
+                <div class="col-md-5 col-sm-5" id="main-panel-2">
+
+                    <h2>Visualizations</h2>
+
+                    <hr>
+
+                        <div class="col-md-5 col-sm-5" id="image-4">
+
+                            <img src="assets/images/max_temp.png" height="100%" width="100%" alt="">
+
+                        </div>
+
+                        <div class="col-md-5 col-sm-5" id="image-4">
+
+                            <img src="assets/images/humidity.png" height="100%" width="100%" alt="">
+
+                        </div>
+
+                        <div class="col-md-5 col-sm-5" id="image-4">
+
+                            <img src="assets/images/cloudiness.png" height="100%" width="100%" alt="">
+                        </div>
+
+                        <div class="col-md-5 col-sm-5" id="image-4">
+
+                            <img src="assets/images/wind_speed.png" height="100%" width="100%" alt="">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
