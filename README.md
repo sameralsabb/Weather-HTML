@@ -33,17 +33,17 @@ The website must consist of 7 pages total, including:
 #### Comparisons page
 
 Large screen:
-![comparison page large screen](Images/comparison-lg.png)
+![comparison page large screen](Images/comparison-lg.PNG)
 
 Small screen:
-![comparison page small screen](Images/comparison-sm.png)
+![comparison page small screen](Images/comparison-sm.PNG)
 
 #### Data page
 
 Large screen:
-![data page large screen](Images/data-lg.png)
+![data page large screen](Images/data-lg.PNG)
 
 Small screen:
-![data page small screen](Images/data-sm.png)
+![data page small screen](Images/data-sm.PNG)
 
 
